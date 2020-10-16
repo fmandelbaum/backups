@@ -4,4 +4,4 @@ El *backup* (respaldo, copia de seguridad) es una *copia de los datos almacenada
 
 [Leer en GitHub](Backup-Presentacion.md)
 
-[Descargar la presentación](Backup-Presentacion.pdf)
+[Descargar la presentación en formato PDF](Backup-Presentacion.pdf)
