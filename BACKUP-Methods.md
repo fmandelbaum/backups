@@ -18,12 +18,12 @@ Se copian *solo los archivos que cambiaron desde un punto de referencia en el ti
 
 Algunos sistemas (como el *Time Machine* de Apple Inc.) permiten sintetizar backups completos a partir de un conjunto de copias incrementales automáticamente, brindando así la "ilusión" de tener varias copias completas.
 
-Este método necesita menos espacio de almacenamiento para la copia que el método *Completo*. Ejemplo: si se deben realizar tres respaldos de 10GB de archivos, pero entre el primero y el segundo sólo cambiaron o se crearon 1GB, y entre el segundo y el tercero sólo cambiaron o se crearon 3GB, se necesitan 14GB (en vez de 30GB).
+Este método necesita menos espacio de almacenamiento para la copia que el método *Completo*. Ejemplo: si se deben realizar tres respaldos de 10GB de archivos, pero entre el primero y el segundo sólo cambiaron o se crearon 1GB, y entre el segundo y el tercero sólo cambiaron o se crearon 3GB, sólo se necesitan 14GB, en lugar de 30GB.
 
 **Diferencial**
 
 Se copian *solo los archivos que cambiaron o se crearon desde el último backup completo*. Esto implica que para restaurar un sistema solo se necesitan dos copias, el último backup *Completo* y su backup *Diferencial*.
 
-Sin embargo, a medida que transcurre el tiempo desde el último backup *Completo*, y los cambios en los archivos se van incrementando, también se incrementará el tiempo necesario para un backup *Diferencial*.
+Sin embargo, a medida que transcurre el tiempo desde el último backup *Completo*, y los cambios en los archivos se van incrementando, también se incrementará el tiempo necesario para realizar el backup *Diferencial*.
 
-Un backup *Diferencial* copia los archivos que se crearon o cambiaron desde el último backup *Completo*, sin importar si se hicieron otros backups diferenciales "en el medio"; mientras que un backup *Incremental* copia los archivos que se crearon o cambiaron desde el último backup de cualquier tipo (ya sea *Completo* o *Incremental*). Por lo tanto, este método necesita menos espacio que el *Completo*, pero más que el *Incremental*.
+Un backup *Diferencial* copia los archivos que se crearon o cambiaron desde el último backup *Completo*, sin importar si se hicieron otros backups diferenciales "en el medio"; mientras que un backup *Incremental* copia los archivos que se crearon o cambiaron desde el último backup de cualquier tipo (ya sea *Completo* o *Incremental*). Por lo tanto, el método *Diferencial* necesita menos espacio que el *Completo*, pero más que el *Incremental*.
