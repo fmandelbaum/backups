@@ -4,22 +4,20 @@ Sin importar qué [método de backup](BACKUP-Methods.md) se utilice, el backup s
 
 **Cinta Magnética** (*Tape*)
 
-Durante muchos años las cintas magnéticas fueron el medio más utilizado para realizar backups, archivado de datos e intercambiar grandes cantidades de información. La cinta es un medio de acceso secuencial por lo que puede brindar un velocidad de lecto-escritura continua (de datos contiguos) muy elevada.
+Durante muchos años fueron el medio más utilizado para realizar backups, archivado de datos e intercambiar grandes cantidades de información. La cinta es un medio de acceso secuencial por lo que la velocidad de lecto-escritura continua (de datos contiguos) puede ser muy elevada.
 
-En su momento, eran el medio más barato para almacenar muchos GB de archivos; las cintas con capacidades del orden de los GB aparecieron en el mercado mucho antes que los discos rígidos con dichas capacidades.
-
-Las capacidades típicas actuales se encuentran en el orden de 15 a 20 GB, aunque hay fabricantes que anunciaron capacidades del orden de los 180 a 250 GB.
+Las capacidades típicas de las cintas actuales se encuentran en el orden de 15 a 20 GB, aunque hay fabricantes (*Fujifilm* y *Sony*) que anunciaron (en el año 2014) capacidades del orden de los 180 a 250 GB.
 
 Entre los problemas de la cinta se destacan:
 
-* La compatibilidad. Existen varios sistemas de tipos de cinta, incompatibles entre sí.
+* La compatibilidad. Existen varios sistemas de tipos de cinta, incompatibles entre sí. Sin embargo, hoy día parece haber un estandar aceptado: [LTO](https://en.wikipedia.org/wiki/Linear_Tape-Open), con una durabilidad de entre 15 y 30 años.
 * La confiabilidad. Las cintas se arruinan "con facilidad" y son sensibles a los campos magnéticos potentes, pudiendo borrarse por completo si son sometidas a dichos campos.
 * El rendimiento de acceso aleatorio. Esto impactaría la restauración de archivos selectiva ya que el medio tiene que ser "recorrido" de manera secuencial hasta encontrar los archivos en cuestión.
 * El ruido. En general son muy ruidosos durante la restauración debido al ruido que generan los motores al rebobinar o avanzar las cintas en búsqueda de la información a restaurar.
 
 **Almacenamiento Óptico** (*CD*, *DVD*, *Blu-Ray*)
 
-El almacenamiento óptico utiliza lásers para escribir y leer la información. Los discos *CD*, *DVD* y *Blu-Ray* grabables son de uso común en computadoras personales y en general son baratos.
+El almacenamiento óptico utiliza lásers para escribir y leer la información. Los discos *CD*, *DVD* y *Blu-Ray* (re-)grabables son de uso común en computadoras personales y en general son baratos.
 
 Al principio estos medios eran mucho más lentos que las cintas y que los discos rígidos, pero los avances tecnológicos acortaron la brecha.
 
@@ -41,13 +39,11 @@ Los discos (o tarjetas de memoria) de estado sólido utilizan circuitos integrad
 
 Los dispositivos de estado sólido son relativamente caros debido a su limitada capacidad (con respecto a los discos rígidos), pero son convenientes para almacenar cantidades limitadas de información en un espacio reducido y muy portátil.
 
-Los dispositivos de estado sólido no tienen partes móviles, lo que los hace mas resistentes al daño físico (rotura por caídas por ejemplo). Pueden tener una tasa de transferencia de datos muy elevada, de hasta 6 Gbit/seg.
+Los dispositivos de estado sólido no tienen partes móviles, lo que los hace mas resistentes al daño físico (rotura por caídas por ejemplo) y pueden tener una tasa de transferencia de datos muy elevada, de hasta 6 Gbit/seg.
 
 **Almacenamiento Remoto**
 
-El almacenamiento remoto, o *en la nube* implica que se contrata un proveedor de servicios de almacenamiento online.
-
-También se puede utilizar otro equipo en la red LAN con software adecuado para realizar almacenamiento "remoto", no obstante aquí nos referimos al almacenamiento en la nube u *off-site*, en otro sitio apartado geográficamente y operado por un tercero.
+El almacenamiento remoto, o *en la nube*, implica que se contrata un proveedor de servicios de almacenamiento online. También se puede utilizar otro equipo en la red LAN con software adecuado para realizar almacenamiento "remoto"; no obstante aquí nos referimos al almacenamiento en la nube u *off-site*, en otro sitio apartado geográficamente y operado por un tercero.
 
 Este medio de almacenamiento se usa para protegerse de desastres naturales como incendios, inundaciones o terremotos que pueden destruir los backups almacenados de manera local.
 
